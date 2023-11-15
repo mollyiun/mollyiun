@@ -1,0 +1,12 @@
+CREATE TABLE Books (
+    BookID INT PRIMARY KEY AUTO_INCREMENT,
+    Title VARCHAR(255) NOT NULL,
+    Author VARCHAR(255) NOT NULL,
+    PublicationYear INT
+);
+
+-- Вставка данных (пример)
+INSERT INTO Books (Title, Author, PublicationYear) VALUES
+('Книга 1', 'Автор 1', 2000),
+('Книга 2', 'Автор 2', 2010),
+('Книга 3', 'Автор 3', 2020);
